@@ -1,6 +1,6 @@
 {
   "name": "aslogger",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A logger",
   "main": "lib",
   "scripts": {
@@ -21,7 +21,7 @@
   "homepage": "https://github.com/a-labo/aslogger#readme",
   "dependencies": {
     "co": "^4.6.0",
-    "colorprint": "^4.0.2"
+    "colorprint": "^4.0.4"
   },
   "devDependencies": {
     "ape-covering": "^3.0.3",
