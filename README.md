@@ -113,8 +113,10 @@ This software is released under the [MIT License](https://github.com/a-labo/aslo
 Links
 ------
 
++ [a-labo][a_labo_url]
 + [colorprint][colorprint_url]
 
+[a_labo_url]: https://github.com/a-labo
 [colorprint_url]: https://github.com/okunishinishi/node-colorprint#readme
 
 <!-- Links End -->

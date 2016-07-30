@@ -3,12 +3,15 @@
   "version": "1.0.2",
   "description": "A logger",
   "main": "lib",
+  "browser": "shim/browser",
   "scripts": {
     "test": "./ci/test.js",
-    "prepublish": "./ci/build.js"
+    "prepublish": "./ci/build.js && ./ci/browser.js"
   },
   "repository": "a-labo/aslogger",
-  "keywords": [],
+  "keywords": [
+    "logger"
+  ],
   "author": {
     "name": "Taka Okunishi",
     "email": "okunishitaka.com@gmail.com",
@@ -24,12 +27,12 @@
     "colorprint": "^4.0.4"
   },
   "devDependencies": {
-    "ape-covering": "^3.0.3",
+    "ababel": "^1.0.25",
+    "ababel-es2015": "^1.0.5",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.1",
     "ape-reporting": "^3.0.1",
     "ape-tasking": "^4.0.3",
-    "ape-testing": "^4.0.1",
     "ape-tmpl": "^5.0.12",
     "ape-updating": "^4.0.4",
     "coz": "^6.0.5",
