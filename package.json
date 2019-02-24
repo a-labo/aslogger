@@ -1,6 +1,6 @@
 {
   "name": "aslogger",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A logger",
   "main": "lib",
   "browser": "shim/browser",
@@ -23,22 +23,22 @@
   },
   "homepage": "https://github.com/a-labo/aslogger#readme",
   "dependencies": {
-    "colorprint": "^4.0.4"
+    "colorprint": "^5.0.0"
   },
   "devDependencies": {
-    "ababel": "^2.0.2",
-    "ababel-es2015": "^2.0.2",
-    "amocha": "^3.0.0",
-    "ape-formatting": "^1.0.2",
-    "ape-releasing": "^4.0.1",
-    "ape-tasking": "^4.0.3",
-    "ape-tmpl": "^6.0.1",
-    "ape-updating": "^4.0.4",
-    "coz": "^6.0.5",
+    "ababel": "^5.0.10",
+    "amocha": "^5.0.1",
+    "ape-formatting": "^2.0.1",
+    "ape-releasing": "^5.0.7",
+    "ape-tasking": "^4.0.12",
+    "ape-tmpl": "^6.0.13",
+    "ape-updating": "^5.0.3",
+    "babel-runtime": "^6.26.0",
+    "coz": "^7.0.16",
     "injectmock": "^2.0.0"
   },
   "engines": {
-    "node": ">=7.6",
-    "npm": ">=4"
+    "node": ">=8",
+    "npm": ">=5"
   }
 }
